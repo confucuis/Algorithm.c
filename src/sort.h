@@ -12,9 +12,8 @@ typedef struct ListNode {
 } ListNode
 
 
-ListNode *create_list_node();
-void delete_list_node(ListNode *node);
-
+ListNode *create_list_node(int size);
+void free_list_node(ListNode *node);
 
 
 
