@@ -12,7 +12,7 @@ typedef struct Node
     struct Node *next;
 } Node;
 
-Node *create_list_node(int size);
+Node *new_list_node(int size);
 void print_node(Node *node);
 void free_node(Node *node);
 

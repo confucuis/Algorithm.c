@@ -17,7 +17,7 @@ static int generate_random_num(int min, int max)
 }
 
 // 创建指定长度的链表并随即初始化
-Node *create_list_node(int size)
+Node *new_list_node(int size)
 {
     srand((unsigned)time(NULL));
     // 头节点

@@ -5,7 +5,7 @@
 
 int main(void)
 {
-    Node *node_list = create_list_node(8);
+    Node *node_list = new_list_node(8);
     if (!node_list)
     {
         printf("create NodeList failure!");
