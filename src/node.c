@@ -4,6 +4,7 @@
 
 #include "node.h"
 
+// 生成订单范围内的随机数
 static int generate_random_num(int min, int max)
 {
     // 使用当前时间作为随机数种子，避免每次运行生成相同的随机数序列
