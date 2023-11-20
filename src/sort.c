@@ -2,30 +2,28 @@
 #include "sort.h"
 
 // 选择排序
-void select(Node *node)
-{
-}
+void select_sort(Node *node) {}
 
 // 冒泡排序
-void bubble(Node *node) {}
+void bubble_sort(Node *node) {}
 
 // 插入排序
-void insert(Node *node) {}
+void insert_sort(Node *node) {}
 
 // 快速排序
-void quick(Node *node) {}
+void quick_sort(Node *node) {}
 
 // 归并排序
-void merge(Node *node) {}
+void merge_sort(Node *node) {}
 
 // 堆排序
-void heap(Node *node) {}
+void heap_sort(Node *node) {}
 
 // 桶排序
-void bucket(Node *node) {}
+void bucket_sort(Node *node) {}
 
 // 计数排序
-void count(Node *node) {}
+void count_sort(Node *node) {}
 
 // 基数排序
-void radix(Node *node) {}
+void radix_sort(Node *node) {}

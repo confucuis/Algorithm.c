@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 #include "node.h"
+#include "sort.h"
 
 int main(void)
 {
@@ -11,6 +12,10 @@ int main(void)
         printf("create NodeList failure!");
         exit(0);
     }
+
+    print_node(node_list);
+    printf("==========\n");
+    select_sort(node_list);
     print_node(node_list);
     free_node(node_list);
 
