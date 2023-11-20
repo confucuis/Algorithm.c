@@ -61,7 +61,7 @@ void print_node(Node *node)
     }
 }
 
-// 释放NodeList内存
+// 释放链表内存
 void free_node(Node *node)
 {
     Node *next;
