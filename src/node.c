@@ -24,15 +24,13 @@ Node *new_list_node(int size)
     Node *head = (Node *)malloc(sizeof(Node));
     head->data = generate_random_num(1, 50);
     head->next = NULL;
-
     if (size == 0)
         return NULL;
-
     for (int idx = 0; idx < size - 1; idx++)
     {
         Node *node = (Node *)malloc(sizeof(Node));
         if (!node)
-            goto bk;
+            return NULL;
         node->data = generate_random_num(1, 50);
         node->next = NULL;
         if (head->next == NULL)
@@ -50,8 +48,6 @@ Node *new_list_node(int size)
         }
     }
     return head;
-bk:
-    return NULL;
 }
 
 // 打印链表中的数
